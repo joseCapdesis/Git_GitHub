@@ -3,17 +3,17 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MyApp());
 }
-//Cambios realizados por mi joseCapdesis en el proyecto open source
+//Cambios realizados por mi CarmenDiaz111 en el proyecto opensource
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Git y GitHub',
+      title: 'Curso Git y GitHub',
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: MyHomePage(title: 'Curso Git y GitHub'),
+      home: MyHomePage(title: 'Curso de CarmenDiaz111'),
     );
   }
 }
@@ -55,6 +55,8 @@ class _MyHomePageState extends State<MyHomePage> {
               style: TextStyle(color: Colors.blueAccent,fontSize: 90 ),
             ),
             Image.asset('assets/images/logo_capdesis.png',height: 190,width: 190,color: Colors.amber,),
+            Text('Curso Git y Github de Cero a Experto',style: TextStyle(color: Colors.grey, fontSize: 30),),
+            Image.asset('assets/images/curso_git_github.png'),
           ],
         ),
       ),
@@ -66,3 +68,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+//Jorge Salgado
