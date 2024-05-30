@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: MyHomePage(title: 'Curso de CarmenDiaz111s'),
+      home: MyHomePage(title: 'Curso de CarmenDiaz111'),
     );
   }
 }
@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'Incrementar',
+        tooltip: 'Aumentó el número',
         child: Icon(Icons.add),
       ), 
     );
